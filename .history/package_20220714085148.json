@@ -1,0 +1,37 @@
+{
+  "dependencies": {
+    "eslint": "^8.19.0",
+    "eslint-config-next": "^12.2.2",
+    "next": "^12.2.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "sass": "^1.53.0"
+  },
+  "name": "masterbroos",
+  "version": "1.0.0",
+  "description": "chat boot with a virtual assainst powered by ias to work like chatboot, and emulate empaty with the user ",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cherced/virtualassistant.git"
+  },
+  "keywords": [
+    "NextJs",
+    "ReactJs",
+    "Java",
+    "and",
+    "Javascript",
+    "Sass",
+    "Html"
+  ],
+  "author": "Cherced & RicSys",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Cherced/virtualassistant/issues"
+  },
+  "homepage": "https://github.com/Cherced/virtualassistant#readme"
+}
