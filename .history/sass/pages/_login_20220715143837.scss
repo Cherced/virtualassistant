@@ -1,0 +1,74 @@
+.login {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .loginForm {
+        background: rgba(255, 255, 255, 0.77);
+        box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.4);
+        width: 315px;
+        height: 415px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .loginForm__title--h1 {
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 54px;
+            font-family: $mainFont;
+            text-align: center;
+            color: #000000;
+        }
+
+        .loginForm__inputs--container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            height: 150px;
+        }
+
+        .loginForm__ancord {
+            margin: 5px 0;
+            width: 80%;
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: end;
+            color: #3751EA;
+
+        }
+
+        .loginForm__label{
+            margin: 5px 0;
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 19px;
+            text-align: end;
+            color: black;
+        }
+        
+        .loginForm__separator{
+            width: 80%;
+            .loginForm__line{
+                margin: 10px 0;
+                color: #000000;
+            }
+            .loginForm__label--or{
+                position: relative;
+            }
+
+        }
+
+
+    }
+}

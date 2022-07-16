@@ -1,0 +1,29 @@
+.carrousel{
+    max-width: 500px;
+    height: auto;
+    min-width: 300px;
+    overflow: hidden;
+    .carrousel__list{
+        list-style: none;
+        position: relative;
+        display: flex;
+        width: 200%;
+        height: 100%;
+        flex-direction: column;
+        .carrousel__list--item{
+            width: 50%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            .carrousel__item--title{
+                text-align: center;
+                margin-bottom: 30px;
+            }
+            .carrousel__item--parragraph{
+                padding: 0 30px;
+                text-align: center;
+            }
+        }
+    }
+}

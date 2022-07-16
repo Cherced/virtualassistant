@@ -1,0 +1,113 @@
+.brand {
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  background: black;
+  border-radius: 0 0 100px 100px;
+  box-shadow: 6px 6px 20px 3px rgba(0, 0, 0, 0.2);
+  justify-content: center;
+  align-items: center;
+
+  .brand__elipse--container {
+    display: none;
+  }
+
+  .brand__img {
+    z-index: 2;
+    object-fit: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .brand {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-y: -200px;
+    border-radius: none;
+    background-image: url('../../../public/img/Ellipse.png');
+    background: linear-gradient(180deg, #000000, #ffffff, #7d7777, #ececec, #7b7b7b, #000000, #545454, #e1e1e1, #e1e1e1);
+    background-size: 1800% 1800%;
+
+    -webkit-animation: AnimationName 27s ease infinite;
+    -moz-animation: AnimationName 27s ease infinite;
+    animation: AnimationName 27s ease infinite;
+    
+
+  .brand__elipse--container {
+    display: block;
+    position: absolute;
+    top: -193px;
+    z-index: 1;
+  }
+  }
+
+  @-webkit-keyframes AnimationName {
+    0% {
+      background-position: 0% 68%
+    }
+
+    50% {
+      background-position: 100% 33%
+    }
+
+    100% {
+      background-position: 0% 68%
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 68%
+    }
+
+    50% {
+      background-position: 100% 33%
+    }
+
+    100% {
+      background-position: 0% 68%
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 68%
+    }
+
+    50% {
+      background-position: 100% 33%
+    }
+
+    100% {
+      background-position: 0% 68%
+    }
+  }
+
+  @-moz-keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+
+  @keyframes AnimationName {
+    0% {
+      background-position: 0% 50%
+    }
+
+    50% {
+      background-position: 100% 50%
+    }
+
+    100% {
+      background-position: 0% 50%
+    }
+  }
+}

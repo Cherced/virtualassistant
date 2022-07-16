@@ -1,0 +1,40 @@
+import React from 'react'
+
+export const NextButton = (props) => {
+  
+  function next(){
+    const slider = document.querySelector('#slider');
+    let sliderSection = document.querySelectorAll('.carrousel__list');
+    let sliderSectionFirst = sliderSection[0];
+    slider.style.marginLeft = "-100%";
+    slider.style.transition = "all 0.5s";
+    setTimeout(function(){
+    slider.style.transition = "none"; 
+    slider.insertAdjacentElement('beforeend', sliderSectionFirst);
+    slider.style.marginLeft = "0";
+}
+,500);
+}
+
+const handleNextButton = () => {
+  const slider = document.querySelector('#slider');
+  let sliderSection = document.querySelectorAll('.carrousel__list--item');
+if(sliderSection[0].firstElementChild.textContent === "Welcome!"){
+    next()
+  } else {
+    props.redirect();
+  } 
+}
+
+
+  return (
+    <button onClick={()=> handleNextButton()} className="button__next" type={props.type} aria-label="Next Button">
+        {props.title}
+        <div className="button__next--Arrow">
+            <h1 className="next__arrow--h1">
+                &#62;
+            </h1>
+        </div>
+    </button>
+  )
+}

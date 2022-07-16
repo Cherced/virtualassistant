@@ -1,0 +1,51 @@
+.carrousel {
+    max-width: 500px;
+    height: auto;
+    min-width: 300px;
+    overflow: hidden;
+
+    .slider {
+        position: relative;
+        display: flex;
+        width: 200%;
+        height: 100%;
+    }
+
+    .carrousel__list {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+
+        .carrousel__list--item {
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .carrousel__item--title {
+                font-family: $subTitle;
+                font-style: normal;
+                font-weight: 500;
+                font-size: 20px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                margin-bottom: 30px;
+            }
+
+            .carrousel__item--parragraph {
+                font-style: normal;
+                font-weight: 400;
+                font-size: 15px;
+                line-height: 18px;
+                text-align: center;
+                letter-spacing: 0.04em;
+                font-family: $mainFont;
+                color: #0F184D;
+                padding: 0 30px;
+                text-align: center;
+            }
+        }
+    }
+}

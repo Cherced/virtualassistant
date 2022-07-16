@@ -1,0 +1,17 @@
+/* .signUp { */
+
+    .signForm {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 485px;
+        width: 320px;
+        .signForm__inputs--container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+/* } */

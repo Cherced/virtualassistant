@@ -1,0 +1,18 @@
+.WelcomeS{
+    height: 100vh;
+    background: linear-gradient(333.49deg, #000000 55.66%, rgba(217, 217, 217, 0) 92.17%);
+    .WelcomeS__header {
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .WelcomeS__header--img{
+            margin-top: 50px;
+            width: 350px;
+            height: 450px;
+            object-fit: cover;
+            border-radius: 100px 0 100px 0 ;
+        }
+    }
+}
