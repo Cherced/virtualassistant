@@ -1,0 +1,29 @@
+.dashboard {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .dashMain__banner {
+        width: 100%;
+        height: 170px;
+        background-position: center;
+        background-repeat: no-repeat;
+        opacity: 1;
+        background-image: url('../../public/img/manos.png');
+
+        .dashMain__title {
+            width: 50%;
+            height: 100%;
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 24px;
+
+            color: #FFFFFF;
+        }
+    }
+
+}

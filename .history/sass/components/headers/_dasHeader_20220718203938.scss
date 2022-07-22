@@ -1,0 +1,46 @@
+.dasHeader {
+    padding: 0 20px;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    .dasHeader__img {
+        width: 35px;
+        height: 35px;
+        object-fit: cover;
+    }
+
+    .dasHeader__button {
+        width: 70px;
+        height: 25px;
+        background-color: transparent;
+        border: 1px solid black;
+        color: green;
+        border-radius: 10px;
+    }
+
+    .dasHeader__user--container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .dasHeader__user--img {
+            width: 40px;
+            height: 40px;
+            border-radius: 50px;
+            object-fit: cover;
+        }
+
+        .dasHeader__user--h1 {
+            margin-left: 10px;
+            font-family: $mainFont;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 18px;
+            text-align: center;
+        }
+    }
+}

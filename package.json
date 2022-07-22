@@ -11,7 +11,6 @@
   "version": "1.0.0",
   "description": "chat boot with a virtual assainst powered by ias to work like chatboot, and emulate empaty with the user ",
   "main": "index.js",
-  "devDependencies": {},
   "scripts": {
     "dev": "next dev",
     "build": "next build",
